@@ -6,7 +6,7 @@ function AddTaskForm({onNewTask}){
     const [name, setName] = useState("");
 
         function handleButtonClicked() {
-        onNewTask(name); // onNewTask is from props
+        onNewTask(name); 
         setName("");
       }
         function handlechange(event){
